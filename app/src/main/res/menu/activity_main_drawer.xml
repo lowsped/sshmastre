@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/tolssh"
+            android:title="Tool ssh" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ip"
+            android:title="IP tool" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/bugs"
+            android:title="Bug check" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/squid"
+            android:title="Squid proxy" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/sped"
+                android:title="Speed test" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/tutor"
+                android:title="Tutorial" />
+
+    </group>
+</menu>

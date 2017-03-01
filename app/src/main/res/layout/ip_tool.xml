@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/h"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="IP TOOL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_weight="1"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/button71"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_focused"
+        android:height="60dp"
+        android:padding="6dp"
+        android:text="PORT CHECK"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_below="@+id/button71"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/button61"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:height="60dp"
+        android:padding="6dp"
+        android:text="PROXY CHECK"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_focused"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/adView"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/button81"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:height="60dp"
+        android:padding="6dp"
+        android:text="PING"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_focused"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/button61"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/button91"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:height="60dp"
+        android:padding="6dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_focused"
+        android:text="WHOIS"
+
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button81"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

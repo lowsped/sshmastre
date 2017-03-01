@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/h"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="SQUID PROXY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_weight="1"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/button110"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:height="60dp"
+        android:padding="6dp"
+        android:text="SQUID PROXY FASTSSH"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_focused"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/button112"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:height="60dp"
+        android:padding="6dp"
+        android:text="SQUID PROXY MYTUNELING"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_focused"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/button110"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_below="@+id/button110"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/button113"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:height="60dp"
+        android:padding="6dp"
+        android:text="PROXY UPDATE"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_focused"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/button111"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/button111"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:height="60dp"
+        android:padding="6dp"
+        android:text="FREE PROXY"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_focused"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/button112"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
